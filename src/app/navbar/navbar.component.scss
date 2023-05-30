@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header.light-mode {
+    /* Styles for light mode */
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+  }
+  
+  .header.dark-mode {
+    /* Styles for dark mode */
+    background-color: rgb(29, 30, 32);
+    color: #FFFFFF;
+  }
+  
+  .nav-header {
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand-toggle {
+    display: flex;
+  }
+  
+  .brand-toggle .btn {
+    padding: 6px 20px;
+  }
+  
+  .navbar {
+    box-shadow: none;
+    color: #1E1E1E;
+  }
+  
+  .navbar.light-mode {
+    /* Styles for light mode */
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+  }
+  
+  .navbar.dark-mode {
+    /* Styles for dark mode */
+    background-color: rgb(29, 30, 32);
+    color: #FFFFFF;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #1E1E1E;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  }
+  
+  .navbar-brand.light-mode {
+    /* Styles for light mode */
+    color: #1E1E1E;
+  }
+  
+  .navbar-brand.dark-mode {
+    /* Styles for dark mode */
+    color: #FFFFFF;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  }
+  
+  .light-mode .navbar-nav {
+    color: #1E1E1E;
+  }
+  
+  .dark-mode .navbar-nav {
+    color: #FFFFFF;
+  }
+  
+  
+  .navbar-custom {
+    background: transparent;
+    background-color: transparent;
+  }
+  

@@ -1,0 +1,42 @@
+.project-header {
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #1E1E1E;
+    text-align: center;
+    padding: 15px; 
+    background-color: rgb(245, 245, 245);
+}
+
+.project-header.light-mode {
+    /* Styles for light mode */
+    background-color: #F5F5F5;
+    color: #1E1E1E;
+}
+
+.project-header.dark-mode {
+    /* Styles for dark mode */
+    background-color: rgb(29, 30, 32);
+    color: #FFFFFF;
+}
+
+.project-title h1 {
+    font-size: 2.5em;
+    min-width: 25vw;
+    max-width: 50vw;
+    font-weight: bold;
+    color: black; /* Default color for light mode */
+    text-align: center;
+    padding: 15px; 
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  }
+  
+  .dark-mode .project-title h1 {
+    color: #FFFFFF; /* Color for dark mode */
+  }
+  
+

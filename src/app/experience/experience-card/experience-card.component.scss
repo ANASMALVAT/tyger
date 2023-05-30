@@ -1,0 +1,40 @@
+
+.card {
+    width: 45rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.card.light-mode {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.card.dark-mode {
+    background-color: rgb(29, 30, 32);
+    color: #FFFFFF;
+    border: 2px solid beige;
+}
+
+.card-header,
+.card-title {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  font-weight: bold;
+  color: black; /* Default color for light mode */
+}
+
+.dark-mode .card-header,
+.dark-mode .card-title {
+  color: #FFFFFF; /* Color for dark mode */
+}
+
+.card-text {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  font-weight: normal;
+  color: black; /* Default color for light mode */
+}
+
+.dark-mode .card-text {
+  color: #FFFFFF; /* Color for dark mode */
+}
+

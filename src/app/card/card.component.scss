@@ -1,0 +1,70 @@
+.card {
+    margin: auto;
+    margin-top: 3rem;
+    width: 50rem;
+    border: 1px solid beige;
+    border-radius: 6px;
+}
+
+.card.light-mode {
+    border-color: beige;
+    
+}
+
+.card.dark-mode {
+    background-color: rgb(29, 30, 32);
+}
+
+.card img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 20%;
+    margin: auto;
+    padding: 15px;
+    background-color: transparent;
+    object-fit: contain;
+}
+
+.card .card-body {
+    margin: auto;
+    width: 40rem;
+    padding: 12px;
+    background: transparent;
+}
+
+.card.light-mode .card-body {
+    color: #1E1E1E;
+}
+
+.card.dark-mode .card-body {
+    color: #FFFFFF;
+
+}
+
+.card .card-body .card-title {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-weight: bold;
+}
+
+.card .card-body .card-text {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    // color: rgb(108, 108, 108);
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card .card-body .card-text.light-mode {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    color: rgb(108, 108, 108);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.card .card-body .card-text.dark-mode {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+

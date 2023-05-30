@@ -1,0 +1,6 @@
+<div class="card mb-2" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
+    <img [src]="cardData.imageUrl" class="card-img-top" alt="Wild Landscape"/>
+    <div class="card-body">
+      <h5 class="card-title" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">{{ cardData.title }}</h5>
+    </div>
+  </div>

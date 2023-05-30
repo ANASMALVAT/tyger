@@ -1,0 +1,36 @@
+.experience-header {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100%;
+}
+
+.experience-header.light-mode {
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+
+.experience-header.dark-mode {
+    color: #FFFFFF;
+    background-color: rgb(29, 30, 32);
+}
+
+.experience-title h1 {
+    font-size: 2.5rem;
+    min-width: 25vw;
+    max-width: 50vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    color: black; /* Default color for light mode */
+  }
+  
+  .dark-mode .experience-title h1 {
+    color: #FFFFFF; /* Color for dark mode */
+  }
+  

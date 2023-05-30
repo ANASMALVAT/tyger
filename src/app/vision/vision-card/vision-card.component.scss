@@ -1,0 +1,38 @@
+.card {
+    margin: auto;
+    margin-top: 3rem;
+    width: 75rem;
+    height: 40rem;
+    min-width: 45rem;
+    min-height: 25rem;
+    border: 1px solid beige;
+    border-radius: 6px;
+}
+
+.card.light-mode {
+    border-color: beige;
+    
+}
+
+.card.dark-mode {
+    background-color: rgb(29, 30, 32);
+}
+
+.card img {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 25%;
+    margin: auto;
+    padding: 15px;
+    background-color: transparent;
+    object-fit: contain;
+}
+.card .card-body .card-title {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.card .card-body .card-title.dark-mode {
+    color: white;
+}

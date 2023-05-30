@@ -1,0 +1,4 @@
+<div class="project-header" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
+    <div class="project-title"><h1>Projects</h1></div>
+    <app-card *ngFor= "let project of projects" [cardData]= "project"></app-card>
+</div>

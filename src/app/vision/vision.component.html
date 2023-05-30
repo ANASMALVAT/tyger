@@ -1,0 +1,4 @@
+<div class="vision-header" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
+    <div class="vision-title"><h1>Visions</h1></div>
+    <app-vision-card class="vision" *ngFor= "let vision of visions" [cardData]= "vision"></app-vision-card>
+</div>
