@@ -11,11 +11,11 @@ export class ProjectsComponent {
   constructor(private themeService: ThemeService){}
 
   projects = [
-    {imageUrl: '../assets/images/projects/java4.png',  title: 'Distributed Database Management System', content: ''},
-    {imageUrl: '../assets/images/projects/rdj4.png', title: 'Dalhousie Multifaith Service', content: ''},
-    {imageUrl: '../assets/images/projects/raws.jpg', title: 'Serverless Bed & Breakfast', content: ''},
-    {imageUrl: '../assets/images/projects/rfb.png', title: 'RentoCar',content: ''},
-    {imageUrl: '../assets/images/projects/raws.jpg', title: 'LambdaHub', content: ''},
+    {imageUrl: 'assets/images/projects/java4.png',  title: 'Distributed Database Management System', content: ''},
+    {imageUrl: 'assets/images/projects/rdj4.png', title: 'Dalhousie Multifaith Service', content: ''},
+    {imageUrl: 'assets/images/projects/raws.jpg', title: 'Serverless Bed & Breakfast', content: ''},
+    {imageUrl: 'assets/images/projects/rfb.png', title: 'RentoCar',content: ''},
+    {imageUrl: 'assets/images/projects/raws.jpg', title: 'LambdaHub', content: ''},
   ];
 
   ngOnInit(): void {
