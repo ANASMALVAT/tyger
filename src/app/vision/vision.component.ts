@@ -11,7 +11,7 @@ export class VisionComponent {
   constructor(private themeService: ThemeService){}
 
   visions = [
-    { imageUrl: '../assets/images/gif/Infra.gif', title: 'Unveiling the Deployment Process of My Website' },
+    { imageUrl: 'assets/images/gif/Infra.gif', title: 'Unveiling the Deployment Process of My Website' },
   ];
 
   currentTheme: string = 'light';
