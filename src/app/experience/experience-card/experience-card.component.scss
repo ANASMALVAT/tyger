@@ -21,6 +21,9 @@
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
   font-weight: bold;
   color: black; /* Default color for light mode */
+  display: flex;
+  justify-content: start;
+
 }
 
 .dark-mode .card-header,
@@ -28,13 +31,16 @@
   color: #FFFFFF; /* Color for dark mode */
 }
 
-.card-text {
+.text-muted {
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
   font-weight: normal;
   color: black; /* Default color for light mode */
+  display: flex;
+  justify-content: start;
+
 }
 
-.dark-mode .card-text {
+.dark-mode .text-muted {
   color: #FFFFFF; /* Color for dark mode */
 }
 
