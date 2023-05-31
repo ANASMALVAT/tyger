@@ -76,6 +76,7 @@
 .profile .profile-content .social-logos {
     /* common styles for both light and dark mode */
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
     height: 55px;
@@ -93,15 +94,11 @@
     background: rgb(29, 30, 32);
     color: #FFFFFF;
   }
-
-.icon-sm {
-    font-size: 16px; /* Adjust the size as needed */
-}
-
-.icon-md {
-    font-size: 24px; /* Adjust the size as needed */
-}
-
+  .profile.dark-mode .profile-content .social-logos .logos{
+    display: flex;
+    justify-content: space-between;
+  }
+  
 .icon-lg {
-    font-size: 32px; /* Adjust the size as needed */
+    font-size: 29px; /* Adjust the size as needed */
 }
