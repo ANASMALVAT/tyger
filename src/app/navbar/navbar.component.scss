@@ -22,18 +22,22 @@
     align-items: center;
     justify-content: space-between;
   } 
-   @media only screen and (max-width: 510px){
+   @media only screen and (max-width: 240px){
   	// example
     .nav-header{
         display: block;
         justify-content: none;
     }
+    .brand-toggle .btn {
+      padding: 0px 0px;
+    }
   }
+
   .brand-toggle {
     display: flex;
   }
   .brand-toggle .btn {
-    padding: 6px 20px;
+    padding: 4px 15px;
   }
   
   .navbar {
@@ -44,29 +48,33 @@
     /* Styles for light mode */
     background-color: #FFFFFF;
     color: #1E1E1E;
+    font-size: calc(8px + 0.5vw);
+
   }
   
   .navbar.dark-mode {
     /* Styles for dark mode */
     background-color: rgb(29, 30, 32);
     color: #FFFFFF;
-  }
-  
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #1E1E1E;
-    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-size: calc(8px + 0.5vw);
   }
   
   .navbar-brand.light-mode {
     /* Styles for light mode */
-    color: #1E1E1E;
+    color: black;
+    font-size: calc(10px + 1vw);
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+
   }
   
   .navbar-brand.dark-mode {
     /* Styles for dark mode */
+    font-size: calc(10px + 1vw);
+    font-weight: bolder;
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+
   }
   
   .navbar-nav {
@@ -97,4 +105,9 @@
   .container-fluid{
     margin: 0px;
     padding: 0px;
+  }
+
+  .icon-daynight{
+    margin: auto;
+    font-size: calc(16px + 1vw);
   }

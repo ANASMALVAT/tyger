@@ -28,8 +28,8 @@
     </nav>
     <div class="brand-toggle">
       <a routerLink="/"><span class="navbar-brand mb-0 h1" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">Anas Malvat</span></a>
-      <button type="button" class="btn btn-outline-dark btn-rounded" *ngIf="isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="dark">Dark</button>
-      <button type="button" class="btn btn-outline-light btn-rounded" *ngIf="!isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="light">Light</button>
+      <i class="fas fa-moon icon-daynight" *ngIf="isDarkTheme" (click)="toggleTheme()"></i>
+      <i class="far fa-sun icon-daynight" *ngIf="!isDarkTheme" (click)="toggleTheme()"></i>
     </div>
   </div>
 </div>
