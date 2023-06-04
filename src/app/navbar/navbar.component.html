@@ -1,10 +1,5 @@
 <div class="header" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
   <div class="nav-header">
-    <div class="brand-toggle">
-      <a routerLink="/"><span class="navbar-brand mb-0 h1" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">Anas Malvat</span></a>
-      <button type="button" class="btn btn-outline-dark btn-rounded" *ngIf="isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="dark">Dark</button>
-      <button type="button" class="btn btn-outline-light btn-rounded" *ngIf="!isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="light">Light</button>
-    </div>
     <nav class="navbar navbar-expand-lg navbar-light" [ngClass]="currentTheme === 'light' ? 'navbar-light' : 'navbar-dark'">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" (click)="basicNav.toggle()" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +26,11 @@
         </div>
       </div>
     </nav>
+    <div class="brand-toggle">
+      <a routerLink="/"><span class="navbar-brand mb-0 h1" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">Anas Malvat</span></a>
+      <button type="button" class="btn btn-outline-dark btn-rounded" *ngIf="isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="dark">Dark</button>
+      <button type="button" class="btn btn-outline-light btn-rounded" *ngIf="!isDarkTheme" (click)="toggleTheme()" mdbRipple rippleColor="light">Light</button>
+    </div>
   </div>
 </div>
 <router-outlet></router-outlet>

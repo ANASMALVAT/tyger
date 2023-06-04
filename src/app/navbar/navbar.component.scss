@@ -1,8 +1,9 @@
 .header {
     display: flex;
     justify-content: center;
+    max-width: 100vw;
   }
-  
+
   .header.light-mode {
     /* Styles for light mode */
     background-color: #FFFFFF;
@@ -16,16 +17,21 @@
   }
   
   .nav-header {
-    width: 55vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  } 
+   @media only screen and (max-width: 510px){
+  	// example
+    .nav-header{
+        display: block;
+        justify-content: none;
+    }
   }
-  
   .brand-toggle {
     display: flex;
   }
-  
   .brand-toggle .btn {
     padding: 6px 20px;
   }
@@ -34,7 +40,6 @@
     box-shadow: none;
     color: #1E1E1E;
   }
-  
   .navbar.light-mode {
     /* Styles for light mode */
     background-color: #FFFFFF;
@@ -85,3 +90,11 @@
     background-color: transparent;
   }
   
+  .navbar-toggler{
+    margin: 0px;
+    padding: 0px 0px;
+  }
+  .container-fluid{
+    margin: 0px;
+    padding: 0px;
+  }
