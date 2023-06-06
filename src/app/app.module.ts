@@ -30,6 +30,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ThemeService } from './theme.service';
 import { VisionComponent } from './vision/vision.component';
 import { VisionCardComponent } from './vision/vision-card/vision-card.component';
+import { GFGLeaderBoardComponent } from './blogs/gfg-leader-board/gfg-leader-board.component';
 
 
 const routes: Routes = [
@@ -51,7 +52,8 @@ const routes: Routes = [
     ExperienceCardComponent,
     ProjectsComponent,
     VisionComponent,
-    VisionCardComponent
+    VisionCardComponent,
+    GFGLeaderBoardComponent
   ],
   imports: [
     BrowserModule,

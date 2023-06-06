@@ -27,7 +27,7 @@
 }
 .profile .profile-content .profile-img {
     max-width: 100vw;
-    min-width: 25vw;
+    min-width: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +36,8 @@
 
 .profile .profile-content .profile-img img {
     border-radius: 35%;
-    min-width: 65px;
-    min-height: 85px;
-    max-height: 185px;
+    max-height: 275px;
+    max-width: 275px;
 }
 
 .profile .profile-content .profile-name {
@@ -75,14 +74,12 @@
 
 
 .profile .profile-content .profile-info {
-    max-width: 45vw;
-    min-width: 45vw;
+    max-width: 775px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: auto;
-    // padding: 12px;
     text-shadow: none;
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
     font-size: calc(10px + 0.5vw);
@@ -103,7 +100,19 @@
     max-height: 55px;
     min-height: 25px;
     max-width: 100vw;
-    min-width: 30vw;
+    min-width: 25vw;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .profile .profile-content .social-logos > * {
+    /* additional styles */
+    flex: 1 0 25%;
+    text-align: center;
+  }
+
+  .profile .profile-content .social-logos .logos a{
+    /* common styles for both light and dark mode */
+    margin-inline-end: 25px;
   }
   
   .profile.light-mode .profile-content .social-logos {
@@ -117,13 +126,26 @@
     /* Styles for dark mode */
     background: rgb(29, 30, 32);
     color: #FFFFFF;
-  }
-  .profile.dark-mode .profile-content .social-logos .logos{
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-height: 55px;
+    min-height: 25px;
+    max-width: 100vw;
+    min-width: 25vw;
+    margin-top: 1rem;
+    flex-wrap: wrap;
   }
   
 .icon-lg {
     font-size: calc(16px + 0.5vw);
     
+}
+
+@media only screen and (max-width: 700px){
+    // example
+    .profile .profile-content .profile-info {
+        max-width: 100vw;
+    }
 }
