@@ -1,8 +1,9 @@
-<div class="card" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
-  <img [src]="cardData.imageUrl" class="card-img-top" />
-    <div class="card-body">
-      <h4 class="card-title">{{ cardData.title }}</h4>
-      <p class="card-text">{{ cardData.content }}</p>
-    </div>
+<div class="cards">
+  <div class="card" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
+    <img [src]="cardData.imageUrl" class="card-img-top" />
+      <div class="card-body">
+        <h4 class="card-title">{{ cardData.title }}</h4>
+        <p class="card-text">{{ cardData.content }}</p>
+      </div>
   </div>
-  
+</div>

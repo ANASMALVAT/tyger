@@ -1,6 +1,10 @@
-
+.cards{
+  width: 100vw;
+}
 .card {
-    max-width: 45rem;
+    max-width: 750px;
+    object-fit:fill;
+    overflow:hidden;
     min-width: 20rem;
     margin: auto;
     margin-top: 3rem;
@@ -24,7 +28,6 @@
   color: black; /* Default color for light mode */
   display: flex;
   justify-content: start;
-
 }
 
 .dark-mode .card-header,
