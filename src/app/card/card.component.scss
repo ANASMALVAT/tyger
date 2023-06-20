@@ -6,8 +6,12 @@
     min-width: 20rem;
     border: 1px solid beige;
     border-radius: 6px;
+    transition: transform 0.1s ease;
+    cursor: pointer;
 }
-
+.card.clicked {
+    transform: scale(0.95);
+  }
 .card.light-mode {
     border-color: beige;
     

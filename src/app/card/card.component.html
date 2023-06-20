@@ -1,5 +1,5 @@
 <div class="cards">
-  <div class="card" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
+  <div class="card" (click)="handleCardClick()"  [ngClass]="[currentTheme === 'light' ? 'light-mode' : 'dark-mode', isClicked ? 'clicked' : '']">
     <img [src]="cardData.imageUrl" class="card-img-top" />
       <div class="card-body">
         <h4 class="card-title">{{ cardData.title }}</h4>

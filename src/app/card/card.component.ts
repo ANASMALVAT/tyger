@@ -17,6 +17,12 @@ export class CardComponent {
       this.currentTheme = theme;
     });
   }
+  isClicked = false;
+  handleCardClick() {
+    this.isClicked = true;
+    setTimeout(() => {
+      this.isClicked = false;
+    }, 100); // Adjust the time as needed for your animation
+  }
 
-  
 }

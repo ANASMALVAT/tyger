@@ -1,4 +1,6 @@
 <div class="blogs-header" [ngClass]="currentTheme === 'light' ? 'light-mode' : 'dark-mode'">
     <div class="blog-title"><h1>Blogs</h1></div>
-    <app-card *ngFor= "let blog of blogs" [cardData]= "blog"></app-card>
+    <a *ngFor="let blog of blogs" [routerLink]="blog.path">
+    <app-card  [cardData]= "blog" ></app-card>
+    </a>
 </div>

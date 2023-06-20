@@ -31,11 +31,16 @@ import { ThemeService } from './theme.service';
 import { VisionComponent } from './vision/vision.component';
 import { VisionCardComponent } from './vision/vision-card/vision-card.component';
 import { GFGLeaderBoardComponent } from './blogs/gfg-leader-board/gfg-leader-board.component';
+import { SolutionsArchitectComponent } from './blogs/solutions-architect/solutions-architect.component';
+import { CloudPractitionerComponent } from './blogs/cloud-practitioner/cloud-practitioner.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'blogs', component: BlogsComponent},
+  { path: 'blogs/gfg-leaderboard', component: GFGLeaderBoardComponent},
+  { path: 'blogs/solutions-architect', component: SolutionsArchitectComponent},
+  { path: 'blogs/cloud-practitioner', component: CloudPractitionerComponent},
   { path: 'projects', component: ProjectsComponent},
   { path: 'experience', component: ExperienceComponent},
   { path: 'vision', component: VisionComponent},
@@ -53,7 +58,9 @@ const routes: Routes = [
     ProjectsComponent,
     VisionComponent,
     VisionCardComponent,
-    GFGLeaderBoardComponent
+    GFGLeaderBoardComponent,
+    SolutionsArchitectComponent,
+    CloudPractitionerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,183 @@
+.content {
+    width: 100vw;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.container .title{
+    margin-top:5rem;
+}
+
+.content h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    word-break: break-word;
+    font-weight: bold;
+    margin-top: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+}
+
+.container .title h1{
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    word-break: break-word;
+    margin-top: 2.2rem;
+}
+
+.sub-title {
+    font-size: 18px;
+    line-height: 1.6;
+    word-break: break-word;
+    padding: 10px;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 20px;
+    margin: auto;
+    width: 720px;
+}
+
+.credentials {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credentials-certifications {
+    margin-top: 20px;
+}
+
+.credentials-certifications,.credenstials-badge {
+    display: flex;
+}
+.credentials-certifications a,.credenstials-badge a{
+    color: inherit;
+}
+.credentials-certifications h6,.credenstials-badge h6 {
+    margin-left: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    max-width: 45rem;
+    max-height: 30rem;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    object-fit: contain;
+}
+
+.md {
+    font-size: 22px;
+}
+
+.next-goals p {
+    font-weight: lighter;
+}
+
+.content.light-mode {
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+
+.content.dark-mode {
+    color: #FFFFFF;
+    background-color: rgb(29, 30, 32);
+}
+
+.content.light-mode h1 {
+    color: black;
+}
+
+.content.dark-mode h1 {
+    color: #FFFFFF;
+}
+
+.content.light-mode p {
+    color: black;
+}
+
+.content.dark-mode p {
+    color: #FFFFFF;
+}
+
+.content.light-mode .sub-title {
+    color: black;
+}
+
+.content.dark-mode .sub-title {
+    color: #FFFFFF;
+}
+
+.content.light-mode .credentials-certifications h6,
+.content.light-mode .credentials-badge h6 {
+    color: black;
+}
+
+.content.dark-mode .credentials-certifications h6,
+.content.dark-mode .credentials-badge h6 {
+    color: #FFFFFF;
+}
+
+.content.light-mode .next-goals p {
+    color: black;
+}
+
+.content.dark-mode .next-goals p {
+    color: #FFFFFF;
+}
+
+.blogs-header {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    min-height: 100vh;
+    min-width: 25rem;
+    max-width: 100%;
+}
+
+.blogs-header.light-mode {
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+
+.blogs-header.dark-mode {
+    color: #FFFFFF;
+    background-color: rgb(29, 30, 32);
+}
+
+.blog-title h1 {
+    font-size: calc(20px + 1vw);
+    min-width: 25vw;
+    max-width: 50vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.light-mode .blog-title h1 {
+    color: #1E1E1E; /* Color for light mode */
+}
+
+.dark-mode .blog-title h1 {
+    color: #FFFFFF; /* Color for dark mode */
+}
+
+.blogs {
+    background: transparent;
+    margin: auto;
+}
